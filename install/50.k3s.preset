@@ -1,3 +1,0 @@
-# Auto-enable k3s on boot
-enable k3s.service
-

@@ -1,5 +1,5 @@
 # Base image (Fedora 40 uCore)
-FROM ghcr.io/ublue-os/ucore:40
+FROM ghcr.io/ublue-os/ucore:latest
 
 # Add Rancher's k3s repository
 RUN curl -sL https://copr.fedorainfracloud.org/coprs/rancher/k3s/repo/fedora-40/rancher-k3s-fedora-40.repo | tee /etc/yum.repos.d/rancher-k3s.repo
